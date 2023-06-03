@@ -4,7 +4,11 @@ print("Welcome back zakk")
 
 colorscheme = catppuccin 
 vim.cmd("colorscheme catppuccin")
-
+--[[
+   [lua/personalprofile/init.lua
+   [lua/personalprofile/init.lua
+   [
+   ]]
 vim.g.linefly_options = {
   separator_symbol = "⎪",
   progress_symbol = "↓",
