@@ -5,8 +5,10 @@ lsp.preset("recommended")
 lsp.ensure_installed({
   -- Replace these with whatever servers you want to install
   'clangd',
+  'omnisharp',
   'rust_analyzer',
-  'pylsp'
+  'pyright',
+  'csharp_ls'
 })
 
 lsp.on_attach(function(client, bufnr)

@@ -46,6 +46,7 @@ return require('packer').startup(function(use)
     use('martinsione/darkplus.nvim')
     use('folke/tokyonight.nvim')
     use('AlexvZyl/nordic.nvim')
+    use('thedenisnikulin/vim-cyberpunk')
     --use { "ellisonleao/gruvbox.nvim" }
     use('https://github.com/preservim/nerdtree')
     use('https://github.com/joshdick/onedark.vim')
