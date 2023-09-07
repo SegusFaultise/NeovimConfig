@@ -3,11 +3,13 @@ local lsp = require('lsp-zero').preset({})
 lsp.preset("recommended")
 
 lsp.ensure_installed({
-  -- Replace these with whatever servers you want to install
   'clangd',
   'omnisharp',
   'rust_analyzer',
   'pyright',
+  'html',
+  'Css',
+  'tsserver',
   'csharp_ls'
 })
 
@@ -17,8 +19,6 @@ end)
 
 -- (Optional) Configure lua language server for neovim
 -- require('lspconfig').lua_ls.setup(lsp.nvim_lua_ls())
-
--- Make sure you setup `cmp` after lsp-zero
 
 local cmp = require('cmp')
 local cmp_action = require('lsp-zero').cmp_action()

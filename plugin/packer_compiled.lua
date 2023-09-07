@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/deoplete-clang",
     url = "https://github.com/deoplete-plugins/deoplete-clang"
   },
+  ["formatter.nvim"] = {
+    loaded = true,
+    path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/formatter.nvim",
+    url = "https://github.com/mhartington/formatter.nvim"
+  },
   ["gruvbox.nvim"] = {
     loaded = true,
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
