@@ -79,11 +79,6 @@ _G.packer_plugins = {
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  catppuccin = {
-    loaded = true,
-    path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/catppuccin",
-    url = "https://github.com/catppuccin/nvim"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -98,11 +93,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/deoplete-clang",
     url = "https://github.com/deoplete-plugins/deoplete-clang"
-  },
-  ["formatter.nvim"] = {
-    loaded = true,
-    path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/formatter.nvim",
-    url = "https://github.com/mhartington/formatter.nvim"
   },
   ["gruvbox.nvim"] = {
     loaded = true,
@@ -129,16 +119,6 @@ _G.packer_plugins = {
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  nerdcommenter = {
-    loaded = true,
-    path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/nerdcommenter",
-    url = "https://github.com/preservim/nerdcommenter"
-  },
-  nerdtree = {
-    loaded = true,
-    path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/nerdtree",
-    url = "https://github.com/preservim/nerdtree"
-  },
   ["nordic.nvim"] = {
     loaded = true,
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/nordic.nvim",
@@ -163,11 +143,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
-  },
-  ["onedark.vim"] = {
-    loaded = true,
-    path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/onedark.vim",
-    url = "https://github.com/joshdick/onedark.vim"
   },
   ["packer.nvim"] = {
     loaded = true,
