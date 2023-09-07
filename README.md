@@ -45,4 +45,4 @@ My config for neovim
     got to lua/personalfile/packer.lua
     esc "then" shift "plus" :PackerSync
 
-# Now your ready to show all the vs code users that neovim is the king of editors 
+# Now your ready to brag to all the vs code users that neovim is the king of editors 
