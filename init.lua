@@ -1,6 +1,4 @@
 require("personalprofile.remap")
-          -->
-          --v
 require("personalprofile.set")
 print("Welcome back zakk")
 
@@ -10,8 +8,8 @@ local servers = {
   
 }
 
-colorscheme = silverhand 
-vim.cmd("colorscheme silverhand")
+colorscheme = oxocarbon 
+vim.cmd("colorscheme oxocarbon")
 --[[
    [lua/personalprofile/init.lua
    [lua/personalprofile/init.lua
