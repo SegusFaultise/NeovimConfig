@@ -8,6 +8,9 @@ local servers = {
   
 }
 
+-- set termguicolors to enable highlight groups
+vim.opt.termguicolors = true
+
 colorscheme = oxocarbon 
 vim.cmd("colorscheme oxocarbon")
 --[[
@@ -19,7 +22,7 @@ vim.g.linefly_options = {
   separator_symbol = "⎪",
   progress_symbol = "↓",
   active_tab_symbol = "▪",
-  git_branch_symbol = "",
+  --git_branch_symbol = "",
   error_symbol = "E",
   warning_symbol = "W",
   information_symbol = "I",

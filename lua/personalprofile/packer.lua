@@ -48,8 +48,6 @@ return require('packer').startup(function(use)
     use('AlexvZyl/nordic.nvim')
     use('https://github.com/nyoom-engineering/oxocarbon.nvim')
     use('thedenisnikulin/vim-cyberpunk')
-    use('https://github.com/xiyaowong/transparent.nvim')
-    use()
     --use { "ellisonleao/gruvbox.nvim" }
     use('https://github.com/preservim/nerdtree')
     use('https://github.com/joshdick/onedark.vim')
