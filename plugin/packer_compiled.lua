@@ -258,6 +258,11 @@ _G.packer_plugins = {
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/transparent.nvim",
     url = "https://github.com/xiyaowong/transparent.nvim"
   },
+  ["trouble.nvim"] = {
+    loaded = true,
+    path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/trouble.nvim",
+    url = "https://github.com/folke/trouble.nvim"
+  },
   undotree = {
     loaded = true,
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/undotree",

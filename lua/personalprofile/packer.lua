@@ -54,6 +54,7 @@ use {
 }
 
 use('bluz71/nvim-linefly')
+use('https://github.com/folke/trouble.nvim')
 use('martinsione/darkplus.nvim')
 use('folke/tokyonight.nvim')
 use("lukas-reineke/indent-blankline.nvim")
