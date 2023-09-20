@@ -45,10 +45,10 @@ My config for neovim
     got to lua/personalfile/packer.lua
     esc "then" shift "plus" :PackerSync
 
-#5. Install font
+# 5. Install & Add Fonts
     linux - https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Agave.tar.xz
     Windows - https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Agave.zip
-    
+
 # Basic commands
     :q "quits the current file"
     :w "writes to the current file"
