@@ -61,4 +61,9 @@ My config for neovim
     :TransparentEnable "enables background transparency"
     :TransparentDisable "disables background transparency"
 
+# Basic keymaps
+    Leader t "opens terminal"
+    Leader pv "exits nvim"
+    Ctrl q "opens NERDTree"
+    
 # Now your ready to brag to all the vs code users that neovim is the king of editors 
