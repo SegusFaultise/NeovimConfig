@@ -18,7 +18,8 @@ vim.opt.undofile = true
 vim.opt.wildmode = "longest:full,full"
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
-
+vim.cmd.NERDTreeGitStatusUseNerdFonts = 1
+vim.cmd.TransparentEnable = true
 vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 4

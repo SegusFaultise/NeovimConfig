@@ -157,6 +157,11 @@ _G.packer_plugins = {
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/nerdtree",
     url = "https://github.com/preservim/nerdtree"
   },
+  ["nerdtree-git-plugin"] = {
+    loaded = true,
+    path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/nerdtree-git-plugin",
+    url = "https://github.com/Xuyuanp/nerdtree-git-plugin"
+  },
   ["nightfox.nvim"] = {
     loaded = true,
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
@@ -262,6 +267,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-nerdtree-syntax-highlight"] = {
+    loaded = true,
+    path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/vim-nerdtree-syntax-highlight",
+    url = "https://github.com/tiagofumo/vim-nerdtree-syntax-highlight"
   }
 }
 
