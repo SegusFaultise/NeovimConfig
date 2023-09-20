@@ -1,2 +1,2 @@
-print("yay")
+print("Main 0/n")
 

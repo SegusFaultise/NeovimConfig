@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["barbar.nvim"] = {
+    loaded = true,
+    path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/barbar.nvim",
+    url = "https://github.com/romgrk/barbar.nvim"
+  },
   catppuccin = {
     loaded = true,
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/catppuccin",
@@ -156,6 +161,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/nerdtree",
     url = "https://github.com/preservim/nerdtree"
+  },
+  ["nerdtree-buffer-ops"] = {
+    loaded = true,
+    path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/nerdtree-buffer-ops",
+    url = "https://github.com/PhilRunninger/nerdtree-buffer-ops"
   },
   ["nerdtree-git-plugin"] = {
     loaded = true,

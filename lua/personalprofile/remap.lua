@@ -6,6 +6,9 @@ vim.keymap.set("n", '<leader>t', ":ToggleTerm", {silent = true})
 vim.keymap.set("n", "<C-z>", ":NERDTreeToggle")
 vim.keymap.set("n", "<leader>ps", ":PackerSync")
 vim.keymap.set("n", "<leader>w", ":wincmd p")
+vim.keymap.set("n", "<leader>bc", ":BufferClose")
+vim.keymap.set("n", "<leader>bn", ":BufferNext")
+vim.keymap.set("n", "<leader>bp", ":BufferPrevious")
 
 -- Keymaps for github
 vim.keymap.set("n", "<leader>gha", ":!git add --a")
