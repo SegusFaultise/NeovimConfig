@@ -9,7 +9,8 @@ vim.keymap.set("n", "<leader>w", ":wincmd p")
 
 -- Keymaps for github
 vim.keymap.set("n", "<leader>gha", ":!git add --a")
-vim.keymap.set("n", "<leader>ghc", ":!git pull")
+vim.keymap.set("n", "<leader>ghps", ":!git push")
+vim.keymap.set("n", "<leader>ghpl", ":!git pull")
 
 -- keymaps for running code
 vim.keymap.set("n", "<F2>", ":!g++ % && ./a.out", {silent = true}, {expr = true})
