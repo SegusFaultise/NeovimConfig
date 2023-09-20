@@ -1,6 +1,8 @@
 # NEOVIM_CONFIG
 My config for neovim
 
+![alt text](http://url/to/img.png)
+
 # installing lastest neovim version in ubuntu
 
 # 1. Install the build prerequisites:
