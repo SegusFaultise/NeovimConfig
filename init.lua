@@ -3,26 +3,20 @@ require("personalprofile.set")
 print("Welcome back zakk")
 
 local servers = {
-  
   "omnisharp",
-  
 }
 
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
 
-colorscheme = oxocarbon 
-vim.cmd("colorscheme oxocarbon")
---[[
-   [lua/personalprofile/init.lua
-   [lua/personalprofile/init.lua
-   [
-   ]]
+-- ColorsThemes: oxocarbon, moonlight, latte, catppuccin, carbonfox
+vim.cmd("colorscheme carbonfox")
+
 vim.g.linefly_options = {
   separator_symbol = "⎪",
   progress_symbol = "↓",
   active_tab_symbol = "▪",
-  --git_branch_symbol = "",
+  git_branch_symbol = "",
   error_symbol = "E",
   warning_symbol = "W",
   information_symbol = "I",

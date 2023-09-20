@@ -8,9 +8,9 @@ lsp.ensure_installed({
   'rust_analyzer',
   'pyright',
   'html',
-  'Css',
   'tsserver',
-  'csharp_ls'
+  'csharp_ls',
+  'lua_ls'
 })
 
 lsp.on_attach(function(client, bufnr)
