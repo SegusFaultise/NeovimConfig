@@ -253,6 +253,11 @@ _G.packer_plugins = {
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/vim-cyberpunk",
     url = "https://github.com/thedenisnikulin/vim-cyberpunk"
   },
+  ["vim-devicons"] = {
+    loaded = true,
+    path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/vim-devicons",
+    url = "https://github.com/ryanoasis/vim-devicons"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/vim-fugitive",
