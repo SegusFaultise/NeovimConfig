@@ -34,7 +34,7 @@ My config for neovim
 # Adding my config to neovim
 
 # 1. Go to config dir
-    cd .config
+    cd .config/
     
 # 2. Clone the nvim config
     git clone https://github.com/NeuralNuts/NEOVIM_CONFIG.git
