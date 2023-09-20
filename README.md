@@ -1,7 +1,7 @@
 # NEOVIM_CONFIG
 My config for neovim
 
-![alt text](http://url/to/img.png)
+![alt text]([http://url/to/img.png](https://github.com/NeuralNuts/NEOVIM_CONFIG/blob/master/exemple.png))
 
 # installing lastest neovim version in ubuntu
 
