@@ -1,9 +1,9 @@
 # NEOVIM_CONFIG
 My config for neovim
 
-![alt text](https://github.com/NeuralNuts/NEOVIM_CONFIG/blob/master/exemple.png)
+![alt text](https://github.com/NeuralNuts/NEOVIM_CONFIG/blob/master/images/exemple.png)
 
-![alt text](https://github.com/NeuralNuts/NEOVIM_CONFIG/blob/master/exex2.png)
+![alt text](https://github.com/NeuralNuts/NEOVIM_CONFIG/blob/master/images/exex2.png)
 
 # installing lastest neovim version in ubuntu
 
@@ -65,5 +65,8 @@ My config for neovim
     Leader t "opens terminal"
     Leader pv "exits nvim"
     Ctrl q "opens NERDTree"
+
+# For all of my keymaps
+    cd nvim/lua/personalprofile/remap.lua
     
 # Now your ready to brag to all the vs code users that neovim is the king of editors 
