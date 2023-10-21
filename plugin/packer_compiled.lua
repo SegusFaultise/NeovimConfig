@@ -232,6 +232,16 @@ _G.packer_plugins = {
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["poimandres.nvim"] = {
+    loaded = true,
+    path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/poimandres.nvim",
+    url = "https://github.com/olivercederborg/poimandres.nvim"
+  },
+  ["rose-pine"] = {
+    loaded = true,
+    path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/rose-pine",
+    url = "https://github.com/rose-pine/neovim"
+  },
   ["tabby.nvim"] = {
     loaded = true,
     path = "/home/neuralnuts/.local/share/nvim/site/pack/packer/start/tabby.nvim",

@@ -6,11 +6,13 @@ local servers = {
   "omnisharp",
 }
 
+require("ibl").setup()
+
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
 
--- ColorsThemes: oxocarbon, moonlight, latte, catppuccin, carbonfox
-vim.cmd("colorscheme carbonfox")
+-- ColorsThemes: oxocarbon, moonlight, latte, catppuccin, carbonfox, poimandres, rose-pine
+vim.cmd("colorscheme rose-pine")
 
 vim.g.linefly_options = {
   separator_symbol = "⎪",

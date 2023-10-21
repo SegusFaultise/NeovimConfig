@@ -3,7 +3,6 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
-
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.1',
     requires = { {'nvim-lua/plenary.nvim'} }
@@ -57,13 +56,18 @@ use('bluz71/nvim-linefly')
 use('https://github.com/folke/trouble.nvim')
 use('martinsione/darkplus.nvim')
 use('folke/tokyonight.nvim')
+use({ 'rose-pine/neovim', as = 'rose-pine' })
 use("lukas-reineke/indent-blankline.nvim")
 use('AlexvZyl/nordic.nvim')
 use('shaunsingh/moonlight.nvim')
+
+use('https://github.com/lukas-reineke/indent-blankline.nvim')
+
 use('https://github.com/tiagofumo/vim-nerdtree-syntax-highlight')
 use('https://github.com/EdenEast/nightfox.nvim') 
 use('https://github.com/ryanoasis/vim-devicons')
 use('nanozuki/tabby.nvim')
+use('https://github.com/olivercederborg/poimandres.nvim')
 use('https://github.com/nyoom-engineering/oxocarbon.nvim')
 use('thedenisnikulin/vim-cyberpunk')
 use('https://github.com/preservim/nerdtree')
