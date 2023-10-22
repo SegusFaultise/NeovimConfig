@@ -21,3 +21,6 @@ vim.keymap.set("n", "<F1>", ":!gcc % && ./a.out", {silent = true}, {expr = true}
 vim.keymap.set("n", "<leader>py", ":!python3 %", {silent = true}, {expr = true})
 vim.keymap.set("n", "<leader>rr", ":!cargo run")
 vim.keymap.set("n", "<leader>rt", ":!cargo test")
+vim.keymap.set("n", "<leader>ab", ":!as % -o asem.o && !gcc -o asem asem.o -nostdlib -static && ./asem")
+vim.keymap.set("n", "<leader>as", ":!as % -o asem.o")
+vim.keymap.set("n", "<leader>asb", ":!gcc -o asem asem.o -nostdlib -static && ./asem")

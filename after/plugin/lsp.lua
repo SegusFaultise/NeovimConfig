@@ -10,7 +10,9 @@ lsp.ensure_installed({
   'html',
   'tsserver',
   'csharp_ls',
-  'lua_ls'
+  'lua_ls',
+  'asm_lsp'
+  
 })
 
 lsp.on_attach(function(client, bufnr)
