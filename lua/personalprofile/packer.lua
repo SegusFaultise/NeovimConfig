@@ -57,11 +57,10 @@ use('https://github.com/folke/trouble.nvim')
 use('martinsione/darkplus.nvim')
 use('folke/tokyonight.nvim')
 use({ 'rose-pine/neovim', as = 'rose-pine' })
-use("lukas-reineke/indent-blankline.nvim")
+use({"lukas-reineke/indent-blankline.nvim", tag = "v3.0.0"})
+
 use('AlexvZyl/nordic.nvim')
 use('shaunsingh/moonlight.nvim')
-
-use('https://github.com/lukas-reineke/indent-blankline.nvim')
 
 use('https://github.com/tiagofumo/vim-nerdtree-syntax-highlight')
 use('https://github.com/EdenEast/nightfox.nvim') 
