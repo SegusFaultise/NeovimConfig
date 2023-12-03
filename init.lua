@@ -11,8 +11,8 @@ require("ibl").setup()
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
 
--- ColorsThemes: oxocarbon, moonlight, latte, catppuccin, carbonfox, poimandres, rose-pine
-vim.cmd("colorscheme rose-pine")
+-- ColorsThemes: oxocarbon, moonlight, latte, catppuccin, carbonfox, poimandres, rose-pine, gruber-darker
+vim.cmd("colorscheme poimandres")
 
 vim.g.linefly_options = {
   separator_symbol = "⎪",

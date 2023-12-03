@@ -16,7 +16,7 @@ vim.keymap.set("n", "<leader>ghps", ":!git push")
 vim.keymap.set("n", "<leader>ghpl", ":!git pull")
 
 -- keymaps for running code
-vim.keymap.set("n", "<F2>", ":!g++ % && ./a.out", {silent = true}, {expr = true})
+vim.keymap.set("n", "<leader>cp", ":!g++ % && ./a.out", {silent = true}, {expr = true})
 vim.keymap.set("n", "<F1>", ":!gcc % && ./a.out", {silent = true}, {expr = true})
 vim.keymap.set("n", "<leader>py", ":!python3 %", {silent = true}, {expr = true})
 vim.keymap.set("n", "<leader>rr", ":!cargo run")
