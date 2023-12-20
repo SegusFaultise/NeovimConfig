@@ -9,6 +9,7 @@ vim.keymap.set("n", "<leader>w", ":wincmd p",  {silent = true}, {expr = true})
 vim.keymap.set("n", "<leader>bc", ":BufferClose",  {silent = true}, {expr = true})
 vim.keymap.set("n", "<leader>bn", ":BufferNext",  {silent = true}, {expr = true})
 vim.keymap.set("n", "<leader>bp", ":BufferPrevious",  {silent = true}, {expr = true})
+vim.keymap.set("n", "<leader>te", ":Twilight",  {silent = true}, {expr = true})
 
 -- Keymaps for github
 vim.keymap.set("n", "<leader>gha", ":!git add --a")
