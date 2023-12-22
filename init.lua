@@ -7,7 +7,6 @@ local servers = {
 }
 
 require("ibl").setup()
---vim.cmd("TwilightEnable");
 
 require('poimandres').setup {
     bold_vert_split = false, -- use bold vertical separators
@@ -26,6 +25,9 @@ vim.opt.termguicolors = true
 -- carbonfox, poimandres, 
 -- rose-pine, gruber-darker
 -- blue-moon
+-- accent
+-- noirblaze
+-- photon
 
 vim.cmd("colorscheme poimandres")
 
@@ -89,5 +91,3 @@ highlight(0, "LineflyInsert", { link = "WildMenu" })
 highlight(0, "LineflyVisual", { link = "IncSearch" })
 highlight(0, "LineflyCommand", { link = "WildMenu" })
 highlight(0, "LineflyReplace", { link = "ErrorMsg" })
-
-require("toggleterm").setup{}

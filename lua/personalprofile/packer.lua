@@ -67,19 +67,13 @@ use('thedenisnikulin/vim-cyberpunk')
 use('https://github.com/olivercederborg/poimandres.nvim')
 use('https://github.com/nyoom-engineering/oxocarbon.nvim')
 use("https://github.com/kyazdani42/blue-moon")
+use('n1ghtmare/noirblaze-vim')
+use('alligator/accent.vim')
+use('axvr/photon.vim')
+use('fxn/vim-monochrome')
+use('kadekillary/skull-vim')
 use { "catppuccin/nvim", as = "catppuccin" }
-
-use('https://github.com/tiagofumo/vim-nerdtree-syntax-highlight')
 use('https://github.com/EdenEast/nightfox.nvim') 
-use('https://github.com/ryanoasis/vim-devicons')
-use('nanozuki/tabby.nvim')
 
--- Nerdtree
-use('https://github.com/preservim/nerdtree')
-use('https://github.com/PhilRunninger/nerdtree-buffer-ops')
-use('https://github.com/Xuyuanp/nerdtree-git-plugin')
-
-use('https://github.com/Abstract-IDE/Abstract-cs')
 use('https://github.com/xiyaowong/transparent.nvim')
-use('https://github.com/preservim/nerdcommenter')
 end)

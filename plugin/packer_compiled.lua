@@ -74,15 +74,15 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["Abstract-cs"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/Abstract-cs",
-    url = "https://github.com/Abstract-IDE/Abstract-cs"
-  },
   LuaSnip = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
+  },
+  ["accent.vim"] = {
+    loaded = true,
+    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/accent.vim",
+    url = "https://github.com/alligator/accent.vim"
   },
   ["blue-moon"] = {
     loaded = true,
@@ -154,30 +154,15 @@ _G.packer_plugins = {
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/moonlight.nvim",
     url = "https://github.com/shaunsingh/moonlight.nvim"
   },
-  nerdcommenter = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/nerdcommenter",
-    url = "https://github.com/preservim/nerdcommenter"
-  },
-  nerdtree = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/nerdtree",
-    url = "https://github.com/preservim/nerdtree"
-  },
-  ["nerdtree-buffer-ops"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/nerdtree-buffer-ops",
-    url = "https://github.com/PhilRunninger/nerdtree-buffer-ops"
-  },
-  ["nerdtree-git-plugin"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/nerdtree-git-plugin",
-    url = "https://github.com/Xuyuanp/nerdtree-git-plugin"
-  },
   ["nightfox.nvim"] = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim"
+  },
+  ["noirblaze-vim"] = {
+    loaded = true,
+    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/noirblaze-vim",
+    url = "https://github.com/n1ghtmare/noirblaze-vim"
   },
   ["nordic.nvim"] = {
     loaded = true,
@@ -225,6 +210,11 @@ _G.packer_plugins = {
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["photon.vim"] = {
+    loaded = true,
+    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/photon.vim",
+    url = "https://github.com/axvr/photon.vim"
+  },
   playground = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/playground",
@@ -245,26 +235,20 @@ _G.packer_plugins = {
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
   },
+  ["skull-vim"] = {
+    loaded = true,
+    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/skull-vim",
+    url = "https://github.com/kadekillary/skull-vim"
+  },
   ["substrata.nvim"] = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/substrata.nvim",
     url = "https://github.com/kvrohit/substrata.nvim"
   },
-  ["tabby.nvim"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/tabby.nvim",
-    url = "https://github.com/nanozuki/tabby.nvim"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["toggleterm.nvim"] = {
-    config = { "\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0" },
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
-    url = "https://github.com/akinsho/toggleterm.nvim"
   },
   ["tokyonight.nvim"] = {
     loaded = true,
@@ -296,28 +280,19 @@ _G.packer_plugins = {
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/vim-cyberpunk",
     url = "https://github.com/thedenisnikulin/vim-cyberpunk"
   },
-  ["vim-devicons"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/vim-devicons",
-    url = "https://github.com/ryanoasis/vim-devicons"
-  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
-  ["vim-nerdtree-syntax-highlight"] = {
+  ["vim-monochrome"] = {
     loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/vim-nerdtree-syntax-highlight",
-    url = "https://github.com/tiagofumo/vim-nerdtree-syntax-highlight"
+    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/vim-monochrome",
+    url = "https://github.com/fxn/vim-monochrome"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: toggleterm.nvim
-time([[Config for toggleterm.nvim]], true)
-try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
-time([[Config for toggleterm.nvim]], false)
 -- Config for: nvim-autopairs
 time([[Config for nvim-autopairs]], true)
 try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
