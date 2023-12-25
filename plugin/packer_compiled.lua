@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["PapilioDehaanii.vim"] = {
+    loaded = true,
+    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/PapilioDehaanii.vim",
+    url = "https://github.com/keiyakeiya/PapilioDehaanii.vim"
+  },
   ["accent.vim"] = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/accent.vim",
@@ -138,6 +143,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
+  },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,

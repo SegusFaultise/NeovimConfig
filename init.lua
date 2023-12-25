@@ -1,5 +1,6 @@
 require("personalprofile.remap")
 require("personalprofile.set")
+
 print("Welcome back zakk")
 
 local servers = {
@@ -16,20 +17,8 @@ require('poimandres').setup {
     disable_italics = false, -- disable italics
 }
 
--- set termguicolors to enable highlight groups
-vim.opt.termguicolors = true
-
--- ColorsThemes: 
--- oxocarbon, moonlight, 
--- latte, catppuccin, 
--- carbonfox, poimandres, 
--- rose-pine, gruber-darker
--- blue-moon
--- accent
--- noirblaze
--- photon
-
 vim.cmd("colorscheme poimandres")
+vim.opt.termguicolors = true
 
 vim.g.linefly_options = {
     separator_symbol = "⎪",
