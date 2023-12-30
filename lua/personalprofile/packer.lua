@@ -56,7 +56,8 @@ use('kvrohit/substrata.nvim')
 
 -- Colorschemes
 use('https://github.com/olivercederborg/poimandres.nvim')
+use('https://github.com/rebelot/kanagawa.nvim')
 
 use('https://github.com/xiyaowong/transparent.nvim')
-use('rktjmp/lush.nvim')
+
 end)

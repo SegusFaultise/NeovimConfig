@@ -17,7 +17,8 @@ require('poimandres').setup {
     disable_italics = false, -- disable italics
 }
 
-vim.cmd("colorscheme poimandres")
+vim.cmd("colorscheme kanagawa-dragon")
+
 vim.opt.termguicolors = true
 
 vim.g.linefly_options = {

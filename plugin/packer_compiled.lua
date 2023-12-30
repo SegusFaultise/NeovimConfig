@@ -79,50 +79,15 @@ _G.packer_plugins = {
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["PapilioDehaanii.vim"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/PapilioDehaanii.vim",
-    url = "https://github.com/keiyakeiya/PapilioDehaanii.vim"
-  },
-  ["accent.vim"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/accent.vim",
-    url = "https://github.com/alligator/accent.vim"
-  },
-  ["blue-moon"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/blue-moon",
-    url = "https://github.com/kyazdani42/blue-moon"
-  },
-  catppuccin = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/catppuccin",
-    url = "https://github.com/catppuccin/nvim"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["darkplus.nvim"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/darkplus.nvim",
-    url = "https://github.com/martinsione/darkplus.nvim"
-  },
   ["deoplete-clang"] = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/deoplete-clang",
     url = "https://github.com/deoplete-plugins/deoplete-clang"
-  },
-  ["github-nvim-theme"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
-    url = "https://github.com/projekt0n/github-nvim-theme"
-  },
-  ["gruber-darker.nvim"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/gruber-darker.nvim",
-    url = "https://github.com/blazkowolf/gruber-darker.nvim"
   },
   ["gruvbox.nvim"] = {
     loaded = true,
@@ -139,15 +104,15 @@ _G.packer_plugins = {
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
-  },
-  ["lush.nvim"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/lush.nvim",
-    url = "https://github.com/rktjmp/lush.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
@@ -158,26 +123,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["moonlight.nvim"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/moonlight.nvim",
-    url = "https://github.com/shaunsingh/moonlight.nvim"
-  },
-  ["nightfox.nvim"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
-    url = "https://github.com/EdenEast/nightfox.nvim"
-  },
-  ["noirblaze-vim"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/noirblaze-vim",
-    url = "https://github.com/n1ghtmare/noirblaze-vim"
-  },
-  ["nordic.nvim"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/nordic.nvim",
-    url = "https://github.com/AlexvZyl/nordic.nvim"
   },
   ["nvim-autopairs"] = {
     config = { "\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
@@ -210,20 +155,10 @@ _G.packer_plugins = {
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
-  ["oxocarbon.nvim"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/oxocarbon.nvim",
-    url = "https://github.com/nyoom-engineering/oxocarbon.nvim"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
-  },
-  ["photon.vim"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/photon.vim",
-    url = "https://github.com/axvr/photon.vim"
   },
   playground = {
     loaded = true,
@@ -240,16 +175,6 @@ _G.packer_plugins = {
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/poimandres.nvim",
     url = "https://github.com/olivercederborg/poimandres.nvim"
   },
-  ["rose-pine"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/rose-pine",
-    url = "https://github.com/rose-pine/neovim"
-  },
-  ["skull-vim"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/skull-vim",
-    url = "https://github.com/kadekillary/skull-vim"
-  },
   ["substrata.nvim"] = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/substrata.nvim",
@@ -259,11 +184,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["tokyonight.nvim"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["transparent.nvim"] = {
     loaded = true,
@@ -275,30 +195,15 @@ _G.packer_plugins = {
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
   },
-  ["twilight.nvim"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/twilight.nvim",
-    url = "https://github.com/folke/twilight.nvim"
-  },
   undotree = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
-  ["vim-cyberpunk"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/vim-cyberpunk",
-    url = "https://github.com/thedenisnikulin/vim-cyberpunk"
-  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
-  },
-  ["vim-monochrome"] = {
-    loaded = true,
-    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/vim-monochrome",
-    url = "https://github.com/fxn/vim-monochrome"
   }
 }
 
