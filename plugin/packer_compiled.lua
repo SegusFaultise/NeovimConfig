@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/deoplete-clang",
     url = "https://github.com/deoplete-plugins/deoplete-clang"
   },
+  ["gruber-darker.nvim"] = {
+    loaded = true,
+    path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/gruber-darker.nvim",
+    url = "https://github.com/blazkowolf/gruber-darker.nvim"
+  },
   ["gruvbox.nvim"] = {
     loaded = true,
     path = "/home/neural_nuts/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",

@@ -53,11 +53,11 @@ use('https://github.com/folke/trouble.nvim')
 use({"lukas-reineke/indent-blankline.nvim", tag = "v3.0.0"})
 use('nvim-tree/nvim-web-devicons')
 use('kvrohit/substrata.nvim')
+use('xiyaowong/transparent.nvim');
 
 -- Colorschemes
 use('https://github.com/olivercederborg/poimandres.nvim')
 use('https://github.com/rebelot/kanagawa.nvim')
-
-use('https://github.com/xiyaowong/transparent.nvim')
+use("blazkowolf/gruber-darker.nvim")
 
 end)

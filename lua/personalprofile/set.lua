@@ -19,7 +19,7 @@ vim.opt.wildmode = "longest:full,full"
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 vim.cmd.NERDTreeGitStatusUseNerdFonts = 1
-vim.cmd.TransparentEnable = true
+--vim.cmd.TransparentEnable = true
 vim.opt.termguicolors = true
 vim.opt.cursorline = true
 
@@ -35,6 +35,6 @@ vim.opt.colorcolumn = "0"
 vim.opt.list = true
 --vim.opt.listchars:append --"eol:↴"
 
-require("indent_blankline").setup {
-    show_end_of_line = true,
-}
+--require("indent_blankline").setup {
+--    show_end_of_line = true,
+--}

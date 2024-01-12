@@ -18,6 +18,7 @@ require('poimandres').setup {
 }
 
 vim.cmd("colorscheme kanagawa-dragon")
+-- kanagawa-dragon
 
 vim.opt.termguicolors = true
 
