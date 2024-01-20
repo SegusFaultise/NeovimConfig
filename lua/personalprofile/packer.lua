@@ -54,6 +54,7 @@ use({"lukas-reineke/indent-blankline.nvim", tag = "v3.0.0"})
 use('nvim-tree/nvim-web-devicons')
 use('kvrohit/substrata.nvim')
 use('xiyaowong/transparent.nvim');
+use('projekt0n/github-nvim-theme')
 
 -- Colorschemes
 use('https://github.com/olivercederborg/poimandres.nvim')

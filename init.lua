@@ -17,7 +17,7 @@ require('poimandres').setup {
     disable_italics = false, -- disable italics
 }
 
-vim.cmd("colorscheme kanagawa-dragon")
+vim.cmd("colorscheme github_dark_high_contrast")
 -- kanagawa-dragon
 
 vim.opt.termguicolors = true

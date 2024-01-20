@@ -1,9 +1,4 @@
-# NEOVIM_CONFIG
-My config for neovim
-
-![alt text](https://github.com/NeuralNuts/NEOVIM_CONFIG/blob/master/images/exemple.png)
-
-![alt text](https://github.com/NeuralNuts/NEOVIM_CONFIG/blob/master/images/exex2.png)
+# Neovim Config
 
 # Using the install script
 # 1. Make the script executable
@@ -16,34 +11,8 @@ sudo cmhod x+ neovim_setup.sh
 ```
 
 # installing lastest neovim version in ubuntu
-
-# 1. Install the build prerequisites:
 ```console
-    sudo apt-get install ninja-build \
-     gettext libtool libtool-bin \
-     autoconf automake cmake g++ \
-     pkg-config unzip
-```
-
-# 2. Clone the Neovim repository:
-```console
-    git clone https://github.com/neovim/neovim.git
-```
-
-# 3. To install the stable release, run the following (otherwise the latest version of Neovim will be installed):
-```console
-    git checkout stable
-```
-
-# 4. Build Neovim with build type ‘Release’ for better performance and in the location of your choice:
-```console
-    make CMAKE_BUILD_TYPE=Release \
-     CMAKE_INSTALL_PREFIX=<NEOVIM_LOCATION> install
-```
-
-# 5. Add the following line to your .bashrc file:
-```console
-    export PATH="$HOME/neovim/bin:$PATH" - example
+    sudo snap install nvim --classic
 ```
 
 # Installing packer
@@ -93,13 +62,13 @@ sudo cmhod x+ neovim_setup.sh
     :TransparentDisable "disables background transparency"
 
 # Basic keymaps
-    Leader t "opens terminal"
-    Leader pv "exits nvim"
-    Ctrl q "opens NERDTree"
+    Leader pv "opens nvim file ui"
+    Leader pf "opens fuzzy finder"
 
 # For all of my keymaps
 ```console
     cd nvim/lua/personalprofile/remap.lua
 ```
 
-# Now your ready to brag to all the vs code users that you use neovim 
+# you have ascended as a programmer
+![alt text](https://github.com/NeuralNuts/NEOVIM_CONFIG/blob/master/epic.jpg)
