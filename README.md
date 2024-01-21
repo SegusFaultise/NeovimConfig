@@ -3,7 +3,7 @@
 # Using the install script
 # 1. Make the script executable
 ```console
-sudo cmhod x+ neovim_setup.sh
+sudo chmod +x neovim_setup.sh
 ```
 # 2. Run the script!
 ```console
