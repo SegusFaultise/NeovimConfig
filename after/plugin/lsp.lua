@@ -11,7 +11,6 @@ lsp.ensure_installed({
     'tsserver',
     'csharp_ls',
     'lua_ls',
-    'asm_lsp',
     'cmake' 
 })
 
