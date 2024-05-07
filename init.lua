@@ -17,8 +17,14 @@ require('poimandres').setup {
     disable_italics = false, -- disable italics
 }
 
-vim.cmd("colorscheme github_dark_high_contrast")
+require("torchlight").setup({
+        contrast = "medium", -- possible values: soft, medium, hard
+})
+
+-- vim.cmd("colorscheme torchlight")
+-- gruber-darker
 -- kanagawa-dragon
+-- torchlight
 
 vim.opt.termguicolors = true
 

@@ -11,7 +11,10 @@ lsp.ensure_installed({
     'tsserver',
     'csharp_ls',
     'lua_ls',
-    'cmake' 
+    'cmake', 
+    'gopls',
+    'hls'
+
 })
 
 lsp.on_attach(function(client, bufnr)

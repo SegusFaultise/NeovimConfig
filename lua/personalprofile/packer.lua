@@ -60,5 +60,6 @@ use('projekt0n/github-nvim-theme')
 use('https://github.com/olivercederborg/poimandres.nvim')
 use('https://github.com/rebelot/kanagawa.nvim')
 use("blazkowolf/gruber-darker.nvim")
+use('skylarmb/torchlight.nvim')
 
 end)
