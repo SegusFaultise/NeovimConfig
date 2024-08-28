@@ -1,16 +1,11 @@
 # Neovim Config
 
 # Using the install script
-# 1. download script executable
-```console
- wget https://github.com/SegusFaultise/NeovimConfig/blob/master/neovim_setup.sh
-```
-
-# 2. Make the script executable
+# 1. Make the script executable
 ```console
 sudo chmod +x neovim_setup.sh
 ```
-# 3. Run the script!
+# 2. Run the script!
 ```console
 ./neovim_setup.sh
 ```
