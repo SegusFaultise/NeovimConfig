@@ -7,55 +7,49 @@ local servers = {
     "omnisharp",
 }
 
-require("ibl").setup()
+--require("ibl").setup()
 
-require('poimandres').setup {
-    bold_vert_split = false, -- use bold vertical separators
-    dim_nc_background = false, -- dim 'non-current' window backgrounds
-    disable_background = false, -- disable background
-    disable_float_background = false, -- disable background for floats
-    disable_italics = false, -- disable italics
+require('darkvoid').setup {
+    transparent = false,
+    glow = true,
+    show_end_of_buffer = true,
 }
 
-require("torchlight").setup({
-        contrast = "medium", -- possible values: soft, medium, hard
-})
+vim.cmd[[ let g:nv_dark = 'jade' ]]
+vim.cmd[[ let g:nv_contrast = 'hard' ]]
 
--- vim.cmd("colorscheme torchlight")
--- gruber-darker
--- kanagawa-dragon
--- torchlight
-
+vim.cmd("colorscheme nightvision")
 vim.opt.termguicolors = true
 
 vim.g.linefly_options = {
-    separator_symbol = "⎪",
-    progress_symbol = "↓",
-    active_tab_symbol = "▪",
-    git_branch_symbol = "",
-    error_symbol = "",
-    warning_symbol = "",
-    information_symbol = "󰋼",
-    ellipsis_symbol = "",
-    tabline = true,
-    winbar = false,
-    with_file_icon = true,
-    with_git_branch = true,
-    with_git_status = true,
-    with_diagnostic_status = true,
-    with_session_status = true,
-    with_lsp_names = true,
-    with_macro_status = false,
-    with_search_count = false,
-    with_spell_status = false,
-    with_indent_status = false,
+  separator_symbol = "⎪",
+  progress_symbol = "↓ ",
+  active_tab_symbol = "▪",
+  git_branch_symbol = "",
+  error_symbol = "E",
+  warning_symbol = "W",
+  information_symbol = "I",
+  ellipsis_symbol = "…",
+  tabline = false,
+  winbar = false,
+  with_file_icon = true,
+  with_git_branch = true,
+  with_git_status = true,
+  with_diagnostic_status = true,
+  with_session_status = true,
+  with_attached_clients = true,
+  with_lsp_status = false,
+  with_macro_status = false,
+  with_search_count = false,
+  with_spell_status = false,
+  with_indent_status = false,
 }
 
 require'nvim-web-devicons'.setup {
     override = {
         zsh = {
             icon = "",
-            color = "#428850",
+            color = "#00ff00",
             cterm_color = "65",
             name = "Zsh"
         }
