@@ -65,6 +65,6 @@ use('FelipeIzolan/lipoide.nvim')
 use('julien/vim-colors-green')
 use('aliqyan-21/darkvoid.nvim')
 use('mathofprimes/nightvision-nvim')
-use('luisiacc/thematrix')
+use('cocopon/iceberg.vim')
 
 end)

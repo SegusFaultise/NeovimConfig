@@ -3,10 +3,6 @@ require("personalprofile.set")
 
 print("Welcome back zakk")
 
-local servers = {
-    "omnisharp",
-}
-
 --require("ibl").setup()
 
 require('darkvoid').setup {
@@ -18,7 +14,7 @@ require('darkvoid').setup {
 vim.cmd[[ let g:nv_dark = 'jade' ]]
 vim.cmd[[ let g:nv_contrast = 'hard' ]]
 
-vim.cmd("colorscheme nightvision")
+vim.cmd("colorscheme iceberg")
 vim.opt.termguicolors = true
 
 vim.g.linefly_options = {

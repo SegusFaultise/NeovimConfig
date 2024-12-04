@@ -4,17 +4,11 @@ lsp.preset("recommended")
 
 lsp.ensure_installed({
     'clangd',
-    'omnisharp',
     'rust_analyzer',
     'pyright',
     'html',
-    'tsserver',
-    'csharp_ls',
     'lua_ls',
     'cmake', 
-    'gopls',
-    'hls'
-
 })
 
 lsp.on_attach(function(client, bufnr)

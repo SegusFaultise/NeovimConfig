@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/segus-faultise/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
+  ["iceberg.vim"] = {
+    loaded = true,
+    path = "/home/segus-faultise/.local/share/nvim/site/pack/packer/start/iceberg.vim",
+    url = "https://github.com/cocopon/iceberg.vim"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/home/segus-faultise/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
@@ -209,11 +214,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/segus-faultise/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  thematrix = {
-    loaded = true,
-    path = "/home/segus-faultise/.local/share/nvim/site/pack/packer/start/thematrix",
-    url = "https://github.com/luisiacc/thematrix"
   },
   ["torchlight.nvim"] = {
     loaded = true,
